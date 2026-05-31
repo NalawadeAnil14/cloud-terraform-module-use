@@ -6,10 +6,6 @@ output "network_block" {
   value = module.my_vpc.vpc_cidr_block
 }
 
-output "arn" {
-  value = module.my_vpc.arn
-}
-
 output "vpc_id" {
   value = module.my_vpc.vpc_id
 }
